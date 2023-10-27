@@ -28,4 +28,11 @@ int main(){
     double distance;
     distance= acos(sin(lat1)*sin(lat2)+cos(lat1)*(lat2)*cos(lon2-lon1))*R;
 
+    printf("\nLocation Distance\n");
+    printf("==================");
+    printf("Origin: %f,%f\n",temp1,temp2);
+    printf("Destination:%f,%f\n",temp3,temp4);
+    printf("Air Distance:%fKM",distance);
+
+    return 0;
 }
